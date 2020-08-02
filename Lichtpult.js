@@ -30,4 +30,4 @@
    request.open('GET', 'ajax?p=/.js' + nocache, true);
    request.send(null);
    if (s==0) setTimeout('GetSwitchState(0)', 5000);
-   }
+   };
